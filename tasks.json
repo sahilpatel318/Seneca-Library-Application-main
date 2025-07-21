@@ -1,0 +1,32 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build MS4 Tester",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-std=c++11",
+        "-Wall",
+        "-Wextra",
+        "ms4_tester.cpp",
+        "Book.cpp",
+        "Publication.cpp",
+        "Date.cpp",
+        "Streamable.cpp",
+        "Utils.cpp",
+        "-o",
+        "build/Debug/ms4_tester.exe"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"],
+      "detail": "Compiles all required MS4 project files."
+    }
+  ]
+}
