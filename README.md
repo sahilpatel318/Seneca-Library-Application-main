@@ -1,8 +1,31 @@
-# Project: Seneca Library Application
+# 📚 Seneca Library Application
+This C++ project simulates a simplified digital library management system for Seneca College. It handles Books and Publications, allowing operations such as:
 
-When Books and other publications arrive in the Seneca library, they should be tagged and put on shelves, so they are easily retrievable to be lent out to those who need them. 
-Your task is to design an application that receives the publications and stores them into the system with the information needed for their retrieval. 
+Storing publication metadata (title, shelf ID, author, date, etc.)
 
-Later, each publication can be lent out to members of the library with a due date for return.
+Lending publications to library members with unique IDs
 
+Tracking checkout dates and loan status
+
+Reading/writing publication data from/to files
+
+Displaying formatted library records
+
+# 🚀 Features
+OOP Design using inheritance, virtual functions, and abstract base classes
+
+Custom Date class for robust date validation and formatting
+
+Operator overloading (==, <<, >>, and more)
+
+File I/O for loading and persisting publication records (Books.txt)
+
+Console-based input validation and output formatting
+
+# 🧩 Technologies
+C++11
+
+GCC / MinGW (cross-platform compatible)
+
+Designed to run in Visual Studio Code
 
